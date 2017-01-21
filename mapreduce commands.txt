@@ -1,0 +1,12 @@
+>cd/usr/local/hadoop/sbin
+>ls
+>stsrt-all.sh
+>hadoop fs -mkdir /niit
+>nano prac.txt ---(this will create text file which is store on local directory)
+>hadoop fs -put /usr/local/hadoop/sbin/prac.txt /niit ----(in this we copy the prac.txt file from localsystem to hdfs)
+>hadoop fs -ls /niit/prac.txt
+>hadoop fs -cat /niiit/prac.txt
+***create program jar file and save jar file folder on desktop****
+>hadoop jar /home/system/Desktop/jarfolder/word.jar.niit.prac.txt /output0
+>hadoop fs -ls /output0
+>hadoop fs -cat /output0/p*
